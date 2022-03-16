@@ -1,0 +1,142 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1F2937;
+}
+
+
+h1 {
+    /* Heading */
+
+
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 40px;
+/* or 100% */
+letter-spacing: -0.025em;
+margin-bottom: 0;
+
+/* white */
+color: #FFFFFF;
+
+background: #204375;
+
+width:500px;
+
+}
+
+.green {
+    color: #10B981
+}
+
+p {
+    /* text-xl/leading-7/font-normal */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+/* Medium grey */
+color: #D5D4D8;
+margin-top: 10px;
+}
+
+button {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 17px 9px 15px;
+
+position: absolute;
+width: 223px;
+height: 42px;
+left: 52px;
+top: 207px;
+
+background: #10B981;
+/* shadow/sm */
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+
+/* text-base/leading-6/font-medium */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+/* white */
+color: #FFFFFF;
+}
+
+#rectangle95 {
+/* Rectangle 95 */
+
+position: absolute;
+width: 211px;
+height: 39px;
+left: 32px;
+top: 359px;
+
+background: #273549;
+border-radius: 6px;
+
+
+}
+
+#rectangle96 {
+/* Rectangle 96 */
+
+position: absolute;
+width: 211px;
+height: 39px;
+left: 267px;
+top: 359px;
+
+background: #273549;
+border-radius: 6px;
+}
+
+#rectangle97 {
+/* Rectangle 97 */
+
+position: absolute;
+width: 211px;
+height: 39px;
+left: 32px;
+top: 425px;
+
+background: #273549;
+border-radius: 6px;
+}
+
+#rectangle98 {
+/* Rectangle 98 */
+
+position: absolute;
+width: 211px;
+height: 39px;
+left: 267px;
+top: 425px;
+
+background: #273549;
+border-radius: 6px;
+}
+
+.rectangle {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+text-align: center;
+
+color: #55F991;
+}
