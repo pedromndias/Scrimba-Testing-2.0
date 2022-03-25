@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+header, section {
+    margin: 0 auto;
+    width: 620px;
+}
+
+.header, .second-section {
+    background: #2E354F;
+    color: #FFF;
+    padding: 45px 0;
+}
+
+h2 {
+    color: #FF5839;
+}
+
+img {
+    max-width: 620px;
+}
+
+a {
+    color:#FF5839;
+}
+
+a:hover {
+    color: yellowgreen;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+}
+
+.contact-btn {
+    color:#FFF;
+    background: #FF5839;
+}
+
+.contact-btn:hover {
+    background: yellowgreen;
+}
+
+.info-btn {
+    color: #2E354F;
+    background: #FFF;
+}
+
+.info-btn:hover{
+    background: yellowgreen;
+}
