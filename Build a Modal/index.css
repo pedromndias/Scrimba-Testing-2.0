@@ -1,0 +1,37 @@
+html, body {
+    margin: 0;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  #open-modal, #close-modal {
+      background: royalblue;
+      padding: 10px 20px;
+      color: white;
+      font-size: 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+#modal {
+    background: white;
+    padding: 20px;
+    height: 200px;
+    margin: 0 auto;
+    max-width: 600px;
+    position: relative;
+    top: 30%;
+}
+
+#overlay {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
