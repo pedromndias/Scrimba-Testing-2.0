@@ -1,0 +1,66 @@
+const prevBtn = document.getElementById("carousel-button-prev")
+const nextBtn = document.getElementById("carousel-button-next")
+
+const slides = document.getElementsByClassName("carousel-item")
+
+const text = document.getElementById("text")
+
+
+const spans = document.getElementsByClassName("dot-span")
+
+let slidePosition = 0
+
+const totalSlides = slides.length
+
+nextBtn.addEventListener("click", moveToNextSlide)
+prevBtn.addEventListener("click", moveToPrevSlide)
+
+function hideAllSlides() {
+    for (let slide of slides) {
+        slide.classList.remove("carousel-item-visible")
+        slide.classList.add("carousel-item-hidden")
+    }
+}
+
+function moveToNextSlide() {
+    hideAllSlides()
+
+    if (slidePosition === totalSlides-1) {
+        slidePosition = 0
+    } else {
+        slidePosition++
+    }
+    slides[slidePosition].classList.add("carousel-item-visible")
+    positionDots()
+    positionText()
+}
+
+function moveToPrevSlide() {
+    hideAllSlides()
+
+    if (slidePosition === 0) {
+        slidePosition = totalSlides-1
+    } else {
+        slidePosition--
+    }
+    slides[slidePosition].classList.add("carousel-item-visible")
+    positionDots()
+    positionText()
+}
+
+function positionDots() {
+    for (let i = 0; i < slides.length; i++) {
+        spans[i].classList.remove("currentDot")
+        spans[slidePosition].classList.add("currentDot")
+    }
+}
+
+function positionText() {
+    if (slidePosition === 0) {
+        text.textContent = "Caribbean Sea"
+    } else if (slidePosition === 1) {
+        text.textContent = "Maldivas"
+    } else {
+        text.textContent = "Greece"
+    }
+}
