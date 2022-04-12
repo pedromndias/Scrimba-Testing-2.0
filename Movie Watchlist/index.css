@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    background: #121212;
+    position: absolute;
+    width: 550px;
+    min-height: 100vh;
+    left: 76px;
+    top: 92px;
+}
+
+header {
+    height: 208px;
+    width: 100%;
+    background-color: #7f6a6a;
+    background-image: url("images/moviesimg.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+h1 {
+    position: absolute;
+    width: 359px;
+    height: 47.55px;
+    left: 42px;
+    top: 82.45px;
+
+    
+    font-style: normal;
+    font-size: 42.7947px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: -0.045em;
+    text-shadow: 1px 1px 2px red, 0 0 0.5em red, 0 0 0.2em blue;
+    color: #FFFFFF;
+}
+
+#watchlistLink {
+    position: absolute;
+    width: 125px;
+    height: 20px;
+    left: 410px;
+    top: 25px;
+
+  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: right;
+    text-shadow: 1px 1px 2px red, 0 0 0.5em red, 0 0 0.2em blue;
+    color: #FFFFFF;
+}
+
+.searchForMoviesLink {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    left: 330px;
+    top: 25px;
+
+  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: right;
+    text-shadow: 1px 1px 2px red, 0 0 0.5em red, 0 0 0.2em blue;
+    color: #FFFFFF;
+}
+
+#searchForMovies2ndLink {
+    position: absolute;
+    width: 160px;
+    height: 20px;
+    left: 207px;
+    top: 500px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#start-exploring-p {
+    position: absolute;
+    width: 250px;
+    height: 20px;
+    left: 155px;
+    top: 460px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+
+    text-align: center;
+
+    color: #2E2E2F;
+}
+
+#start-adding-watchlist {
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    left: 165px;
+    top: 430px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    /* identical to box height, or 111% */
+
+    text-align: center;
+
+    color: #2E2E2F;
+}
+
+#movie-form {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 462px;
+    height: 38px;
+    left: 44px;
+    top: 189px;
+
+
+    background: #2E2E2F;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+#input-field {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+    color: #FFFFFF;
+    letter-spacing: 0.7px;
+    width: 462px;
+    height: 30px;
+    left: 44px;
+    top: 189px;
+
+    background: #2E2E2F;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+#submit-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 11px 9px 17px;
+    color: #FFFFFF;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    position: static;
+    width: 120px;
+    height: 38px;
+    left: 342px;
+    top: 0px;
+
+    background: #4B4B4B;
+    border-radius: 0px 6px 6px 0px;
+}
+
+.container-each-movie {
+    display: flex;
+    margin: 50px 30px;
+    color: #FFFFFF;
+}
+
+.div-for-image {
+    width: 25%;
+}
+
+.div-for-image img {
+    width: 99px;
+    height: 147.41px;
+}
+
+.div-for-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-header {
+    display: flex;
+    align-items: center;
+}
+
+.content-subheader {
+    display: flex;
+    justify-content: space-between;
+    color: #A5A5A5;
+}
+
+.add-to-watchlist {
+    display: flex;
+}
+
+.add-to-watchlist button {
+    margin-right: 2px;
+}
+
+.add-to-watchlist-btn, #remove-from-watchlist-btn {
+    background: #A5A5A5;
+    border-radius: 50%;
+    color:#123baa;
+    font-weight: bold;
+    font-size: 2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.description-text {
+    width: 342px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A5A5A5;
+}
+
+
+
